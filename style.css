@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    
+}
+.principal{
+    height: 101vh;
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.secondaire{
+    height: 20vh;
+    width: 20vw;
+    font: 800 10em black;
+    background-color: yellow;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20%;
+    box-shadow: 0 0 20px 20px green;
+}
+.secondaire:hover{
+    background-color: green;
+    color: white;
+    transform: rotate(360deg);
+    transition: 1s;
+    box-shadow: 0 0 20px 20px yellow;
+}
